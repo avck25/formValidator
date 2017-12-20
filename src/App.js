@@ -68,7 +68,7 @@ class App extends Component {
   }
 
   handleSubmittion = () => {
-    console.log(this.state.submit);
+
     if (this.state.submit) {
       console.log('submitted');
     }
